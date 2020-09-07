@@ -1,6 +1,6 @@
 import { RequestHandler } from 'express';
-import { UnivariateSummary } from 'visual-insights';
-import { FieldType } from 'visual-insights/build/esm/commonTypes';
+import { UnivariateSummary } from 'insights';
+import { FieldType } from 'insights/build/esm/commonTypes';
 const { getAllFieldsDistribution, getAllFieldTypes, getAllFieldsEntropy } = UnivariateSummary;
 interface Field {
   name: string;

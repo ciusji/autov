@@ -1,5 +1,5 @@
 /* eslint no-restricted-globals: 0 */
-import { Insight } from 'visual-insights'
+import { Insight } from 'insights'
 import { timer } from './timer';
 
 const combineFields = (e) => {

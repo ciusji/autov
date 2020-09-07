@@ -1,4 +1,4 @@
-import { FieldType } from "visual-insights/src/commonTypes";
+import { FieldType } from "insights/src/commonTypes";
 import { featureVis } from './featureVis'
 import { targetVis } from './targetVis';
 import { baseVis } from './baseVis';

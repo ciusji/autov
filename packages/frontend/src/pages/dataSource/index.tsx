@@ -6,7 +6,7 @@ import DataTable from '../../components/table';
 import FieldPanel from '../../components/fieldConfig';
 import { DataSource,  BIField, Record } from '../../global';
 import {  cleanMethodList, CleanMethod } from './clean';
-import { Cleaner, Sampling } from 'visual-insights';
+import { Cleaner, Sampling } from 'insights';
 import { useDataSource } from './useDataSource';
 import { useId } from '@uifabric/react-hooks';
 

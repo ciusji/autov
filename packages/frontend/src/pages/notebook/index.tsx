@@ -4,7 +4,7 @@ import FieldAnalysisBoard from './fieldAnalysis';
 import Subspaces from './subspaces';
 import { FieldSummary, Subspace, combineFieldsService } from '../../service';
 import ClusterBoard from './cluster';
-import { specification } from 'visual-insights';
+import { specification } from 'insights';
 import { ProgressIndicator, Toggle, Slider } from 'office-ui-fabric-react';
 import { useGlobalState } from '../../state';
 import VegaBase from '../../visBuilder/vegaBase';

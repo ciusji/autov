@@ -1,4 +1,4 @@
-import { fieldsAnalysis, getInsightViews } from 'visual-insights'
+import { fieldsAnalysis, getInsightViews } from 'insights'
 import { RequestHandler } from 'express';
 
 const fieldProcess: RequestHandler = (req, res) => {

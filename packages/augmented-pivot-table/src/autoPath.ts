@@ -1,7 +1,7 @@
 import { NestTree } from "pivot-chart";
 import { QueryPath } from "pivot-chart/build/utils";
-import { ViewSpace } from "visual-insights/build/esm/insights/dev";
-import { Insight } from "visual-insights";
+import { ViewSpace } from "insights/build/esm/insights/dev";
+import { Insight } from "insights";
 
 export function enumerateExpandableNode (tree: NestTree, dimensions: string[], each: (path: QueryPath, node: NestTree) => void, end?: () => void) {
   const queue: Array<[NestTree, QueryPath, number]> = [];

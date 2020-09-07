@@ -1,5 +1,5 @@
 import { RequestHandler } from 'express';
-import { getInsightViews } from 'visual-insights';
+import { getInsightViews } from 'insights';
 interface RequestBody {
   dataSource: Array<{[key: string]: any}>;
   dimensions: string[];

@@ -1,4 +1,4 @@
-import { Specification } from "visual-insights/src/commonTypes";
+import { Specification } from "insights/src/commonTypes";
 import { geomTypeMap, DataField } from './index';
 import { inferFieldSemanticTypeWithDict, inferFieldTypeWithDict } from "./utils";
 

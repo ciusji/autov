@@ -1,4 +1,4 @@
-import { Cleaner } from 'visual-insights';
+import { Cleaner } from 'insights';
 import { DataSource } from '../../global';
 
 // todo

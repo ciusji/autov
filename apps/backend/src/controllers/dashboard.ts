@@ -1,7 +1,7 @@
-import { DashBoard } from 'visual-insights';
+import { DashBoard } from 'insights';
 import { RequestHandler } from 'express';
-import { DataSource } from 'visual-insights/build/esm/commonTypes';
-import { FieldsFeature } from 'visual-insights/build/esm/insights/impurity';
+import { DataSource } from 'insights/build/esm/commonTypes';
+import { FieldsFeature } from 'insights/build/esm/insights/impurity';
 interface Subspace {
   score: number;
   dimensions: string[];

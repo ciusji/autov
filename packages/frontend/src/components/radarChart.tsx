@@ -1,7 +1,9 @@
 import React, { useRef, useEffect, useMemo } from 'react';
+// @ts-ignore
 import embed from 'vega-embed';
 import { scheme } from 'vega';
-import { DefaultIWorker } from "visual-insights/build/esm/insights/dev";
+// @ts-ignore
+import { DefaultIWorker } from "insights/build/esm/insights/dev";
 
 scheme('threshold', ['#1890ff', '#ffccc7']);
 
@@ -229,7 +231,7 @@ const RadarChart: React.FC<RadarChartProps> = props => {
       });
     }
   }, [viewData]);
-  return <div ref={container}></div>
+  return <div ref={container}/>
 }
 
 export default RadarChart;

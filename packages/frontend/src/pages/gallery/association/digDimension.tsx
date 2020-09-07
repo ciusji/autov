@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { ViewSpace } from '../../../service';
 import { Field, DataSource } from '../../../global';
-import { specification } from 'visual-insights';
+import { specification } from 'insights';
 import { PreferencePanelConfig } from '../../../components/preference';
 const similarityThrehold = 0.2;
 const topKRelatedSpace = 5;

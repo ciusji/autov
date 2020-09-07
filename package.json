@@ -1,12 +1,11 @@
 {
-  "name": "visual-insights",
+  "name": "autov",
   "private": true,
   "version": "1.0.0",
-  "description": "![](https://www.travis-ci.org/ObservedObserver/showme.svg?branch=master) ![](https://img.shields.io/github/license/ObservedObserver/showme)",
   "scripts": {
-    "build": "yarn workspace visual-insights build",
-    "test": "yarn workspace visual-insights test",
-    "coverage": "yarn workspace visual-insights coverage",
+    "build": "yarn workspace insights build",
+    "test": "yarn workspace insights test",
+    "coverage": "yarn workspace insights coverage",
     "ui": "npm run test && npm run build && node start.js",
     "devfront": "yarn workspace frontend start",
     "devback": "yarn workspace backend dev"
@@ -16,19 +15,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ObservedObserver/showme.git"
-  },
   "keywords": [
     "insights",
     "visualization",
     "data analysis"
   ],
-  "author": "Observed Observer",
-  "bugs": {
-    "url": "https://github.com/ObservedObserver/showme/issues"
-  },
+  "author": "cius",
   "workspaces": {
     "packages": [
       "packages/*"

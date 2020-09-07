@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import styled from 'styled-components';
-import { InsightSpace, DefaultIWorker } from 'visual-insights/build/esm/insights/dev';
-import { specification } from "visual-insights";
+import { InsightSpace, DefaultIWorker } from 'insights/build/esm/insights/dev';
+import { specification } from "insights";
 import { getInsightViewSpace } from '../../service';
 import { PrimaryButton, SpinButton, Slider, ProgressIndicator } from "office-ui-fabric-react";
 import PreferencePanel, {

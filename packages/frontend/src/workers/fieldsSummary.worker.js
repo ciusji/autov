@@ -1,5 +1,5 @@
 /* eslint no-restricted-globals: 0 */
-import { UnivariateSummary } from 'visual-insights';
+import { UnivariateSummary } from 'insights';
 import { timer } from './timer';
 
 const { getAllFieldsDistribution, getAllFieldTypes, getAllFieldsEntropy } = UnivariateSummary;

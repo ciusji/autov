@@ -23,7 +23,7 @@ import groupFieldsWorker from './workers/groupFields.worker';
 // @ts-ignore
 // eslint-disable-next-line
 import InsightViewWorker from './workers/dev.worker';
-import { InsightSpace } from 'visual-insights/build/esm/insights/dev';
+import { InsightSpace } from 'insights/build/esm/insights/dev';
 
 let server = '//lobay.moe:8443';
 
@@ -227,7 +227,7 @@ export async function clusterMeasures (maxGroupNumber: number, combinedSpaces: V
         })
       });
       const result: Result<ViewSpace[]> = await res.json();
-      if (result.success === true) {
+      if (result.success) {
         viewSpaces = result.data.map((v, i) => {
           return {
             ...v,
@@ -243,7 +243,7 @@ export async function clusterMeasures (maxGroupNumber: number, combinedSpaces: V
   } else {
     const worker = new clusterWorker();
     const result = await workerService<ViewSpace[], any>(worker, { maxGroupNumber, spaces: combinedSpaces });
-    if (result.success === true) {
+    if (result.success) {
       viewSpaces = result.data.map((v, i) => {
         return {
           ...v,

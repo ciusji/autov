@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo, useCallback, useRef } from "react";
-import { Insight } from 'visual-insights';
+import { Insight } from 'insights';
 import {
   ToolBar,
   AsyncPivotChart,
@@ -12,7 +12,7 @@ import {
 } from "pivot-chart";
 import { TitanicCubeService, getTitanicData } from "./service";
 import { QueryPath, queryCube, AsyncCacheCube } from "pivot-chart/build/utils";
-import { ViewSpace } from "visual-insights/build/esm/insights/dev";
+import { ViewSpace } from "insights/build/esm/insights/dev";
 import DragableFields, { DraggableFieldState, RecField } from './dragableFields/index'
 import { buildCubePool } from "./dragableFields/utils";
 import { enumerateExpandableNode, getViewFinalScore } from "./autoPath";

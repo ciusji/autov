@@ -32,3 +32,5 @@ dist
 coverage
 
 .cache
+apps/backend/yarn.lock
+yarn.lock

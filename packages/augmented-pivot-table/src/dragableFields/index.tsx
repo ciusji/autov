@@ -11,7 +11,7 @@ import Select, { Option } from "./select";
 import produce from "immer";
 import { FieldListContainer, FieldsContainer, FieldLabel } from './components';
 import { move, reorder } from './utils';
-import { Insight } from 'visual-insights';
+import { Insight } from 'insights';
 const InsightNameMap: {
   [key: string]: string;
 } = {

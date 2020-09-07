@@ -1,4 +1,4 @@
-import titanic from "../../visual-insights/test/dataset/titanic.json";
+import titanic from "../../insights/test/dataset/titanic.json";
 
 import { DataSource, Record } from "pivot-chart";
 // import aggregate from 'cube-core';

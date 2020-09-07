@@ -1,7 +1,7 @@
 import React, { useMemo, useEffect, useState } from "react";
 import { DashBoard } from "../../service";
 import { DataSource, Field } from "../../global";
-import { specification } from "visual-insights";
+import { specification } from "insights";
 import { useComposeState } from "../../utils/index";
 import { IconButton } from "office-ui-fabric-react";
 import IndicatorCard from "./indicatorCard";

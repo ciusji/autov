@@ -1,4 +1,4 @@
-import { Specification } from "visual-insights/build/esm/commonTypes";
+import { Specification } from "insights/build/esm/commonTypes";
 import { DataSource, Field, FieldType } from "../global";
 export const geomTypeMap: { [key: string]: any } = {
   interval: "bar",

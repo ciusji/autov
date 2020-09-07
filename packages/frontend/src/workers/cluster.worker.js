@@ -1,5 +1,5 @@
 /* eslint no-restricted-globals: 0 */
-import { Cluster } from 'visual-insights';
+import { Cluster } from 'insights';
 import { timer } from './timer';
 
 const PearsonThreshold = 0.5;

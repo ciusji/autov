@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { SearchBox } from 'office-ui-fabric-react';
 import { useGlobalState } from '../../../state';
 import Fuse, { FuseOptions } from 'fuse.js';
-import { specification } from 'visual-insights';
+import { specification } from 'insights';
 import { ViewSpace } from '../../../service';
 import BaseChart from "../../../visBuilder/vegaBase";
 import styled from 'styled-components';

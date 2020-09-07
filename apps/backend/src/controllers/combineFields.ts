@@ -1,4 +1,4 @@
-import { analysisDimensions } from 'visual-insights'
+import { analysisDimensions } from 'insights'
 import { RequestHandler } from 'express';
 interface CombineFieldsRequest {
   dataSource: any[];

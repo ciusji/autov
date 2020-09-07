@@ -1,5 +1,5 @@
 /* eslint no-restricted-globals: 0 */
-import { DashBoard } from 'visual-insights';
+import { DashBoard } from 'insights';
 import { timer } from './timer';
 
 function transSubspaces2FieldsFeature(subspaces) {

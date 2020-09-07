@@ -5,6 +5,7 @@ import groupFields from './controllers/groupFields';
 import combineFields from './controllers/combineFields';
 import cluster from './controllers/cluster';
 import generateDashBoard from './controllers/dashboard';
+// @ts-ignore
 import { RequestHandler } from 'express';
 
 interface Route {

@@ -1,5 +1,5 @@
 import { Request, Response, RequestHandler } from 'express';
-import { kruskalMST } from 'visual-insights';
+import { kruskalMST } from 'insights';
 interface MeasureDetail {
   name: string;
   value: number

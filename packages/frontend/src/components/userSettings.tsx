@@ -9,7 +9,7 @@ const UserSettings: React.FC = props => {
   return (
     <div>
       <div ref={target}>
-        <ActionButton text="Preference" iconProps={{ iconName: 'PlayerSettings' }} onClick={() => {setShow(true)}}></ActionButton>
+        <ActionButton text="Preference" iconProps={{ iconName: 'PlayerSettings' }} onClick={() => {setShow(true)}}/>
       </div>
 
       {show && (
